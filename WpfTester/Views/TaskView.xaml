@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WpfTester.Views.TaskView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="33" d:DesignWidth="300">
+  <Grid>
+    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
+      <Button Content="Enable" Margin="5" Command="{Binding EnableCommand}" />
+      <Button Content="Delay" Margin="5" Command="{Binding DelayCommand}" />
+      <Button Content="Disable" Margin="5" Command="{Binding DisableCommand}" />
+      <Label Margin="5,5,0,5" Content="Last @" />
+      <TextBlock Margin="5,10,5,5" Text="{Binding LastRun}" />
+      <Label Margin="5,5,0,5" Content="Next @" />
+      <TextBlock Margin="5,10,5,5" Text="{Binding NextRun}" />
+    </StackPanel>
+  </Grid>
+</UserControl>

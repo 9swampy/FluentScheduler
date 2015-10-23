@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentScheduler.Tests.Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentScheduler.Tests.Web", "FluentScheduler.Tests.Web\FluentScheduler.Tests.Web.csproj", "{EC3E1A41-2332-43D6-AD62-2D01425CE538}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTester", "WpfTester\WpfTester.csproj", "{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,16 @@ Global
 		{EC3E1A41-2332-43D6-AD62-2D01425CE538}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EC3E1A41-2332-43D6-AD62-2D01425CE538}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EC3E1A41-2332-43D6-AD62-2D01425CE538}.Release|x86.ActiveCfg = Release|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F23FA543-4C68-4665-8F57-63A1F5BBEBC7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
